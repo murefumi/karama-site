@@ -1,38 +1,32 @@
-KARAMA – V1.0 REWORK
-====================
+KARAMA – V11
 
-Nuova struttura concordata:
+MENU
+HAI BISOGNO DI SUPPORTO
+- ASILO POLITICO
+- RESIDENZA
+- INFO UTILI
+
+COSA FACCIAMO
+- A PAVIA
+- SULLA ROTTA
+
+PARTECIPA
+- DONA
+- DIVENTA VOLONTARIO
+- PORTA MATERIALE
+
+NEWS ED EVENTI
+CONTATTI
 
 HOME
-- Chi è Karāma
-- Feed Instagram centrale
+1. Chi siamo
+2. Solidarietà concreta, dentro e fuori i confini
+3. Sostieni Karāma
+4. Instagram
+5. Barra contatti
 
-NAVIGAZIONE
-- COSA FACCIAMO
-    - A PAVIA
-    - SULLA ROTTA
-- HAI BISOGNO DI SUPPORTO
-    - RICHIESTA D'ASILO
-    - RESIDENZA
-    - INFO UTILI
-- PARTECIPA
-- CONTATTI
+Pulsanti principali Home:
+SCOPRI KARĀMA -> cosa-facciamo.html
+SOSTIENICI -> partecipa.html
 
-PAGINE PRESENTI
-- chi-siamo.html
-- cosa-facciamo.html
-- a-pavia.html
-- sulla-rotta.html
-- supporto.html
-- richiesta-asilo.html
-- residenza.html
-- info-utili.html
-- partecipa.html
-- contatti.html
-
-Le pagine interne contengono per ora testi Lorem ipsum / placeholder.
-Per Instagram serve connessione Internet.
-
-Per test locale:
-python -m http.server 8000
-poi aprire http://localhost:8000/
+Le nuove pagine ancora prive di contenuti definitivi contengono placeholder.
