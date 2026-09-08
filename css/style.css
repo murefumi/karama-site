@@ -376,3 +376,11 @@ h1,h2,h3,p{margin-top:0}
   }
 
 }
+/* ALTEZZA VOCI MENU MOBILE */
+@media(max-width:840px){
+
+  .nav-main{
+    padding:17px 20px;
+  }
+
+}
