@@ -368,3 +368,11 @@ h1,h2,h3,p{margin-top:0}
   .home-section-heading h2{font-size:46px}
   .support-home-grid article{min-height:320px}
 }
+/* MENU MOBILE */
+@media(max-width:840px){
+
+  .nav-main{
+    font-size:14px;
+  }
+
+}
