@@ -126,7 +126,7 @@ h1,h2,h3,p{margin-top:0}
 .content-block{padding:55px clamp(28px,5vw,70px);border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:280px}
 .content-block:nth-child(even){border-right:0}
 .content-block h2{font-size:38px;line-height:1;letter-spacing:-.045em;margin-bottom:20px}
-.content-block p:last-child{max-width:55ch;color:var(--muted)}
+.content-block p:last-child{max-width:55ch;}
 
 @media(max-width:1050px){
   .nav-main{padding:0 10px;font-size:10px}
