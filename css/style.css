@@ -1307,3 +1307,23 @@ h1,h2,h3,p{margin-top:0}
     gap:3px;
   }
 }
+/* PAGINA SUPPORTO - INFO UTILI */
+
+.support-info-block {
+  grid-column: 1 / -1;
+  border-right: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.support-info-block > p:not(.eyebrow) {
+  max-width: 65ch;
+}
+
+.support-info-block .button {
+  margin-top: 10px;
+}
