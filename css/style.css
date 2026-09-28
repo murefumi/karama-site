@@ -392,3 +392,33 @@ h1,h2,h3,p{margin-top:0}
   text-decoration:underline;
   text-underline-offset:3px;
 }
+/* MANIFESTO HOME */
+
+.home-manifesto {
+  margin: 10px 0 32px;
+  border-top: 1px solid var(--line);
+}
+
+.home-manifesto p {
+  margin: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.home-manifesto strong {
+  color: var(--ink);
+  font-weight: 800;
+  margin-right: 5px;
+}
+
+@media(max-width:840px) {
+
+  .home-manifesto p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+}
