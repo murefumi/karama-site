@@ -1,4 +1,3 @@
-
 :root{
   --paper:#f2eee5;
   --paper-soft:#e9e3d8;
@@ -173,12 +172,7 @@ h1,h2,h3,p{margin-top:0}
   .instagram-heading h2{font-size:56px}
   .instagram-stage{min-height:550px}
   .site-footer{flex-direction:column;align-items:flex-start;gap:18px}
-}
-.nav-main[href="supporto.html"]{
-  color:#1e2322;
-  font-weight:900;
-}
-.home-contacts {
+}.home-contacts {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background: var(--ink);
@@ -219,7 +213,6 @@ h1,h2,h3,p{margin-top:0}
   .home-contacts {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .home-contact-item {
     border-bottom: 1px solid rgba(255,255,255,.2);
   }
@@ -229,7 +222,6 @@ h1,h2,h3,p{margin-top:0}
   .home-contacts {
     grid-template-columns: 1fr;
   }
-
   .home-contact-item {
     min-height: 120px;
     border-right: 0;
@@ -368,21 +360,12 @@ h1,h2,h3,p{margin-top:0}
   .home-section-heading h2{font-size:46px}
   .support-home-grid article{min-height:320px}
 }
-/* MENU MOBILE */
+/* MENU MOBILE — override finale */
 @media(max-width:840px){
-
   .nav-main{
     font-size:14px;
-  }
-
-}
-/* ALTEZZA VOCI MENU MOBILE */
-@media(max-width:840px){
-
-  .nav-main{
     padding:17px 20px;
   }
-
 }
 .event-link-text{
   color:var(--ink) !important;
@@ -415,12 +398,10 @@ h1,h2,h3,p{margin-top:0}
 }
 
 @media(max-width:840px) {
-
   .home-manifesto p {
     font-size: 15px;
     line-height: 1.5;
   }
-
 }
 /* =========================
    GUIDA ASILO POLITICO
@@ -545,25 +526,20 @@ h1,h2,h3,p{margin-top:0}
 }
 
 @media(max-width:600px) {
-
   .asilo-guide {
     padding: 45px 5vw 70px;
   }
-
   .asilo-alert,
   .asilo-free,
   .asilo-important {
     padding: 22px;
   }
-
   .asilo-section {
     padding: 42px 0;
   }
-
   .asilo-section h2 {
     font-size: 38px;
   }
-
 }
 /* =========================
    GUIDA RESIDENZA
@@ -593,7 +569,6 @@ h1,h2,h3,p{margin-top:0}
   line-height: 1.55;
 }
 
-
 /* ATTENZIONE */
 
 .residenza-alert {
@@ -610,7 +585,6 @@ h1,h2,h3,p{margin-top:0}
 .residenza-alert p {
   max-width: 70ch;
 }
-
 
 /* SEZIONI */
 
@@ -633,7 +607,6 @@ h1,h2,h3,p{margin-top:0}
   line-height: 1.6;
   margin-bottom: 45px;
 }
-
 
 /* SINGOLI PASSAGGI */
 
@@ -672,7 +645,6 @@ h1,h2,h3,p{margin-top:0}
   line-height: 1.5;
 }
 
-
 /* PROCEDURA GRATUITA */
 
 .residenza-free {
@@ -687,7 +659,6 @@ h1,h2,h3,p{margin-top:0}
   letter-spacing: -.04em;
 }
 
-
 /* CIE */
 
 .cie-info {
@@ -700,7 +671,6 @@ h1,h2,h3,p{margin-top:0}
   font-size: 25px;
   margin-bottom: 12px;
 }
-
 
 /* LINK COMUNE */
 
@@ -727,7 +697,6 @@ h1,h2,h3,p{margin-top:0}
   margin: 8px 0;
 }
 
-
 /* RESIDENZA FITTIZIA */
 
 .residenza-fittizia-title {
@@ -743,7 +712,6 @@ h1,h2,h3,p{margin-top:0}
   font-weight: 800;
   letter-spacing: .09em;
 }
-
 
 /* PASSAGGIO SUCCESSIVO */
 
@@ -769,7 +737,6 @@ h1,h2,h3,p{margin-top:0}
   color: #fff;
 }
 
-
 /* MODULI */
 
 .document-buttons {
@@ -779,45 +746,36 @@ h1,h2,h3,p{margin-top:0}
   margin-top: 25px;
 }
 
-
 /* MOBILE */
 
 @media(max-width:600px) {
-
   .residenza-guide {
     padding: 45px 5vw 70px;
   }
-
   .residenza-intro h1 {
     font-size: 46px;
   }
-
   .residenza-alert,
   .residenza-free,
   .residenza-next {
     padding: 22px;
   }
-
   .residenza-section {
     padding: 45px 0;
   }
-
   .residenza-step {
     grid-template-columns: 36px 1fr;
     gap: 12px;
     padding: 25px 0;
   }
-
   .residenza-step h3 {
     font-size: 23px;
   }
-
   .official-links,
   .document-buttons {
     flex-direction: column;
     align-items: flex-start;
   }
-
 }
 /* =========================================
    FIX LAYOUT PAGINA RESIDENZA
@@ -831,7 +789,6 @@ h1,h2,h3,p{margin-top:0}
   padding: 70px 5vw 100px;
 }
 
-
 /* BOX ATTENZIONE */
 
 .residenza-content > .residenza-alert {
@@ -840,79 +797,61 @@ h1,h2,h3,p{margin-top:0}
   padding: 30px;
 }
 
-
 /* SEZIONI PRINCIPALI */
 
 .residenza-content > .content-block.residenza-section {
   width: 100%;
   min-height: 0;
-
   padding: 55px 0;
-
   border-right: 0;
   border-bottom: 1px solid var(--line);
 }
-
 
 /* TITOLI */
 
 .residenza-content .residenza-section > h2 {
   max-width: 14ch;
-
   font-size: clamp(36px, 5vw, 60px);
   line-height: .95;
   letter-spacing: -.05em;
-
   margin-bottom: 30px;
 }
-
 
 /* TESTO INTRODUTTIVO */
 
 .residenza-content .residenza-section > p:not(.eyebrow) {
   max-width: 70ch;
-
   font-size: 17px;
   line-height: 1.6;
-
   margin-bottom: 30px;
 }
-
 
 /* PASSAGGI NUMERATI */
 
 .residenza-content .residenza-step {
   max-width: 800px;
-
   display: grid;
   grid-template-columns: 65px minmax(0, 1fr);
-
   gap: 25px;
   padding: 28px 0;
-
   border-top: 1px solid var(--line);
 }
-
 
 /* BOX GRATUITO */
 
 .residenza-content .residenza-free {
   max-width: 800px;
-
   padding: 30px;
   margin: 30px 0 0;
-
   border: 2px solid var(--ink);
 }
 
 .residenza-content .residenza-free h3 {
   margin: 0;
-
   font-size: clamp(28px, 3vw, 40px);
   line-height: 1;
   letter-spacing: -.04em;
 }
-
 
 /* INFO CIE */
 
@@ -920,34 +859,28 @@ h1,h2,h3,p{margin-top:0}
   max-width: 800px;
 }
 
-
 /* RESIDENZA FITTIZIA */
 
 .residenza-content .residenza-fittizia-title {
   max-width: 800px;
 }
 
-
 /* PASSAGGIO SUCCESSIVO */
 
 .residenza-content .residenza-next {
   max-width: 800px;
-
   padding: 30px;
   margin-top: 40px;
-
   background: var(--ink);
   color: #fff;
 }
 
 .residenza-content .residenza-next h3 {
   max-width: 18ch;
-
   font-size: clamp(30px, 4vw, 46px);
   line-height: 1;
   letter-spacing: -.04em;
 }
-
 
 /* LINK E CONTATTI */
 
@@ -956,48 +889,38 @@ h1,h2,h3,p{margin-top:0}
   max-width: 800px;
 }
 
-
 /* =========================
    MOBILE
    ========================= */
 
 @media(max-width:600px) {
-
   .residenza-content {
     padding: 45px 5vw 70px;
   }
-
   .residenza-content > .residenza-alert {
     padding: 22px;
   }
-
   .residenza-content > .content-block.residenza-section {
     padding: 42px 0;
   }
-
   .residenza-content .residenza-section > h2 {
     font-size: 38px;
   }
-
   .residenza-content .residenza-section > p:not(.eyebrow) {
     font-size: 16px;
   }
-
   .residenza-content .residenza-step {
     grid-template-columns: 36px minmax(0, 1fr);
     gap: 12px;
     padding: 25px 0;
   }
-
   .residenza-content .residenza-free,
   .residenza-content .residenza-next {
     padding: 22px;
   }
-
 }
 /* =========================================================
    INFO UTILI — HUB + PAGINE SERVIZI
-   Da aggiungere IN FONDO all'attuale css/style.css
    ========================================================= */
 
 /* HUB */
@@ -1287,12 +1210,10 @@ h1,h2,h3,p{margin-top:0}
 @media(max-width:760px){
   .useful-hub,
   .useful-guide{padding:45px 5vw 70px}
-
   .useful-hub-grid,
   .useful-path-grid,
   .service-grid,
   .useful-levels{grid-template-columns:1fr}
-
   .useful-hub-card{min-height:270px;padding:24px}
   .useful-hub-card h2{font-size:40px;margin-top:32px}
   .useful-section{padding:42px 0}
@@ -1301,7 +1222,6 @@ h1,h2,h3,p{margin-top:0}
   .useful-alert{padding:22px}
   .service-card{padding:22px}
   .service-card h3{font-size:26px}
-
   .service-times>div{
     grid-template-columns:1fr;
     gap:3px;
@@ -1312,11 +1232,9 @@ h1,h2,h3,p{margin-top:0}
 .support-info-block {
   grid-column: 1 / -1;
   border-right: 0;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
   text-align: center;
 }
 
@@ -1338,57 +1256,45 @@ h1,h2,h3,p{margin-top:0}
   padding: 70px 5vw 100px;
 }
 
-
 /* SEZIONI */
 
 .dona-content > .content-block.dona-section {
   width: 100%;
   min-height: 0;
-
   padding: 55px 0;
-
   border-right: 0;
   border-bottom: 1px solid var(--line);
 }
 
 .dona-section > h2 {
   max-width: 15ch;
-
   font-size: clamp(40px, 5vw, 64px);
   line-height: .95;
   letter-spacing: -.05em;
-
   margin-bottom: 28px;
 }
 
 .dona-section > p {
   max-width: 70ch;
-
   font-size: 17px;
   line-height: 1.6;
 }
-
 
 /* TESTO INTRODUTTIVO */
 
 .dona-section .dona-intro {
   max-width: 65ch;
-
   font-size: 20px;
   line-height: 1.45;
-
   margin-bottom: 28px;
 }
-
 
 /* PUNTO RACCOLTA */
 
 .dona-location {
   max-width: 850px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   margin: 40px 0;
   border: 1px solid var(--ink);
 }
@@ -1403,30 +1309,24 @@ h1,h2,h3,p{margin-top:0}
 
 .dona-location h3 {
   margin: 0;
-
   font-size: clamp(26px, 3vw, 38px);
   line-height: 1;
   letter-spacing: -.04em;
 }
 
-
 /* COSA SERVE */
 
 .dona-subsection {
   max-width: 850px;
-
   padding: 35px 0;
   margin-top: 20px;
-
   border-top: 1px solid var(--line);
 }
 
 .dona-material-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   gap: 0 45px;
-
   padding-left: 20px;
   margin: 0;
 }
@@ -1434,81 +1334,63 @@ h1,h2,h3,p{margin-top:0}
 .dona-material-list li {
   padding: 10px 0;
   line-height: 1.45;
-
   border-bottom: 1px solid var(--line);
 }
-
 
 /* AVVISO MATERIALI */
 
 .dona-important {
   max-width: 850px;
-
   padding: 24px 28px;
   margin: 10px 0 30px;
-
   background: var(--ink);
   color: #fff;
 }
 
 .dona-important p {
   margin: 0;
-
   font-size: 17px;
   line-height: 1.5;
 }
-
 
 /* BOTTONI */
 
 .dona-actions {
   display: flex;
   flex-wrap: wrap;
-
   gap: 10px;
-
   margin-top: 30px;
 }
-
 
 /* EVIDENZA DONAZIONI */
 
 .dona-highlight {
   max-width: 850px;
-
   padding: 28px;
   margin: 30px 0;
-
   border: 2px solid var(--ink);
 }
 
 .dona-highlight p {
   margin: 0;
-
   font-size: clamp(20px, 2.5vw, 27px);
   line-height: 1.3;
 }
-
 
 /* MODALITÀ DONAZIONE */
 
 .donation-methods {
   max-width: 850px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   margin-top: 40px;
-
   border-top: 1px solid var(--ink);
   border-left: 1px solid var(--ink);
 }
 
 .donation-method {
   min-height: 240px;
-
   padding: 28px;
-
   border-right: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
 }
@@ -1516,40 +1398,33 @@ h1,h2,h3,p{margin-top:0}
 .donation-method h3 {
   font-size: clamp(25px, 3vw, 36px);
   line-height: 1;
-
   letter-spacing: -.04em;
 }
 
 .donation-label {
   margin-bottom: 5px;
-
   font-size: 13px;
   font-weight: 700;
 }
 
 .iban {
   overflow-wrap: anywhere;
-
   font-size: clamp(18px, 2.2vw, 25px);
   font-weight: 800;
   letter-spacing: .02em;
 }
 
-
 /* LABORATORIO */
 
 .sewing-visit {
   max-width: 600px;
-
   padding: 28px;
   margin: 35px 0;
-
   background: var(--paper-soft);
 }
 
 .sewing-visit h3 {
   margin-bottom: 8px;
-
   font-size: clamp(27px, 3vw, 40px);
   line-height: 1;
   letter-spacing: -.04em;
@@ -1559,59 +1434,46 @@ h1,h2,h3,p{margin-top:0}
   margin-bottom: 0;
 }
 
-
 /* =========================
    MOBILE
    ========================= */
 
 @media(max-width:600px) {
-
   .dona-content {
     padding: 45px 5vw 70px;
   }
-
   .dona-content > .content-block.dona-section {
     padding: 42px 0;
   }
-
   .dona-section > h2 {
     font-size: 38px;
   }
-
   .dona-section > p {
     font-size: 16px;
   }
-
   .dona-section .dona-intro {
     font-size: 18px;
   }
-
   .dona-location {
     grid-template-columns: 1fr;
   }
-
   .dona-location > div:first-child {
     border-right: 0;
     border-bottom: 1px solid var(--ink);
   }
-
   .dona-material-list {
     grid-template-columns: 1fr;
   }
-
   .donation-methods {
     grid-template-columns: 1fr;
   }
-
   .dona-actions {
     flex-direction: column;
     align-items: stretch;
   }
-
   .dona-actions .button {
     width: 100%;
   }
-
 }
 /* =========================================
    PAGINA DIVENTA VOLONTARIO
@@ -1624,124 +1486,92 @@ h1,h2,h3,p{margin-top:0}
   padding: 70px 5vw 100px;
 }
 
-
 /* SEZIONI */
 
 .volunteer-content > .content-block.volunteer-section {
   width: 100%;
   min-height: 0;
-
   padding: 55px 0;
-
   border-right: 0;
   border-bottom: 1px solid var(--line);
 }
 
-
 .volunteer-section > h2 {
   max-width: 15ch;
-
   font-size: clamp(40px, 5vw, 64px);
   line-height: .95;
   letter-spacing: -.05em;
-
   margin-bottom: 28px;
 }
 
-
 .volunteer-section > p {
   max-width: 70ch;
-
   font-size: 17px;
   line-height: 1.6;
 }
 
-
 .volunteer-section .volunteer-intro {
   max-width: 65ch;
-
   font-size: 20px;
   line-height: 1.45;
-
   margin-bottom: 30px;
 }
-
 
 /* FRASE IN EVIDENZA */
 
 .volunteer-highlight {
   max-width: 850px;
-
   padding: 28px;
   margin: 30px 0;
-
   border: 2px solid var(--ink);
 }
 
-
 .volunteer-highlight p {
   margin: 0;
-
   font-size: clamp(20px, 2.5vw, 27px);
   line-height: 1.3;
 }
-
 
 /* ATTIVITÀ */
 
 .volunteer-activities {
   max-width: 900px;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
   margin-top: 45px;
-
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
 
-
 .volunteer-activity {
   min-height: 230px;
-
   padding: 28px;
-
   display: flex;
   flex-direction: column;
-
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
-
 .volunteer-activity > span {
   margin-bottom: auto;
-
   font-size: 11px;
   font-weight: 700;
   letter-spacing: .12em;
-
   color: var(--muted);
 }
 
-
 .volunteer-activity h3 {
   margin: 35px 0 12px;
-
   font-size: 27px;
   line-height: 1;
   letter-spacing: -.04em;
 }
 
-
 .volunteer-activity p {
   margin-bottom: 0;
-
   line-height: 1.5;
   color: var(--muted);
 }
-
 
 /* ultima attività a tutta larghezza */
 
@@ -1750,30 +1580,23 @@ h1,h2,h3,p{margin-top:0}
   min-height: 200px;
 }
 
-
 /* WHATSAPP */
 
 .whatsapp-box {
   max-width: 850px;
-
   padding: 35px;
   margin: 35px 0;
-
   background: var(--paper-soft);
   border: 1px solid var(--line);
 }
 
-
 .whatsapp-box h3 {
   max-width: 16ch;
-
   font-size: clamp(30px, 4vw, 46px);
   line-height: 1;
   letter-spacing: -.04em;
-
   margin-bottom: 20px;
 }
-
 
 .whatsapp-box > p:not(.eyebrow) {
   max-width: 60ch;
@@ -1781,162 +1604,117 @@ h1,h2,h3,p{margin-top:0}
   margin-bottom: 25px;
 }
 
-
 /* ALTRI CONTATTI */
 
 .volunteer-other-contacts {
   max-width: 850px;
-
   padding-top: 30px;
   border-top: 1px solid var(--line);
 }
-
 
 .volunteer-other-contacts > p {
   max-width: 65ch;
 }
 
-
 .volunteer-actions {
   display: flex;
   flex-wrap: wrap;
-
   gap: 10px;
-
   margin-top: 25px;
 }
-
 
 /* SEZIONE INCLUSIVITÀ */
 
 .inclusive-statement {
   max-width: 850px;
-
   padding: 35px;
   margin: 35px 0;
-
   background: var(--ink);
   color: #fff;
 }
-
 
 .inclusive-statement .eyebrow {
   color: #fff;
 }
 
-
 .inclusive-statement h3 {
   max-width: 18ch;
-
   font-size: clamp(30px, 4vw, 48px);
   line-height: 1;
   letter-spacing: -.045em;
-
   margin-bottom: 25px;
 }
 
-
 .inclusive-statement > p:last-child {
   max-width: 65ch;
-
   margin-bottom: 0;
   line-height: 1.6;
 }
-
 
 /* RISPETTO E DISCREZIONE */
 
 .volunteer-respect {
   max-width: 850px;
-
   padding: 30px;
   margin-top: 25px;
-
   border: 2px solid var(--ink);
 }
-
 
 .volunteer-respect h3 {
   font-size: clamp(27px, 3vw, 38px);
   line-height: 1;
   letter-spacing: -.04em;
-
   margin-bottom: 18px;
 }
 
-
 .volunteer-respect p:last-child {
   max-width: 65ch;
-
   margin-bottom: 0;
   line-height: 1.6;
 }
-
 
 /* =========================
    MOBILE
    ========================= */
 
 @media(max-width:600px) {
-
   .volunteer-content {
     padding: 45px 5vw 70px;
   }
-
-
   .volunteer-content > .content-block.volunteer-section {
     padding: 42px 0;
   }
-
-
   .volunteer-section > h2 {
     font-size: 38px;
   }
-
-
   .volunteer-section > p {
     font-size: 16px;
   }
-
-
   .volunteer-section .volunteer-intro {
     font-size: 18px;
   }
-
-
   .volunteer-activities {
     grid-template-columns: 1fr;
   }
-
-
   .volunteer-activity:last-child {
     grid-column: auto;
   }
-
-
   .volunteer-activity {
     min-height: 200px;
   }
-
-
   .volunteer-highlight,
   .whatsapp-box,
   .inclusive-statement,
   .volunteer-respect {
     padding: 22px;
   }
-
-
   .volunteer-actions {
     flex-direction: column;
     align-items: stretch;
   }
-
-
   .volunteer-actions .button {
     width: 100%;
   }
-
 }
 /* =========================================
    PAGINA PORTA MATERIALE
@@ -1949,127 +1727,96 @@ h1,h2,h3,p{margin-top:0}
   padding: 70px 5vw 100px;
 }
 
-
 /* SEZIONI */
 
 .material-content > .content-block.material-section {
   width: 100%;
   min-height: 0;
-
   padding: 55px 0;
-
   border-right: 0;
   border-bottom: 1px solid var(--line);
 }
 
-
 .material-section > h2 {
   max-width: 15ch;
-
   font-size: clamp(40px, 5vw, 64px);
   line-height: .95;
   letter-spacing: -.05em;
-
   margin-bottom: 30px;
 }
-
 
 /* LISTA MATERIALI */
 
 .material-list {
   max-width: 800px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   padding: 0;
   margin: 35px 0 0;
-
   list-style: none;
-
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
 
-
 .material-list li {
   padding: 20px 22px;
-
   font-size: 17px;
   font-weight: 700;
-
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
-
 
 /* PUNTO DI RACCOLTA */
 
 .material-location {
   max-width: 800px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   margin-top: 35px;
-
   border: 1px solid var(--ink);
 }
-
 
 .material-location > div {
   padding: 28px;
 }
 
-
 .material-location > div:first-child {
   border-right: 1px solid var(--ink);
 }
 
-
 .material-location h3 {
   margin-bottom: 12px;
-
   font-size: clamp(27px, 3vw, 38px);
   line-height: 1;
   letter-spacing: -.04em;
 }
 
-
 .material-location p:last-child {
   margin-bottom: 0;
 }
 
-
 /* MOBILE */
 
 @media(max-width:600px) {
-
   .material-content {
     padding: 45px 5vw 70px;
   }
-
   .material-content > .content-block.material-section {
     padding: 42px 0;
   }
-
   .material-section > h2 {
     font-size: 38px;
   }
-
   .material-list {
     grid-template-columns: 1fr;
   }
-
   .material-location {
     grid-template-columns: 1fr;
   }
-
   .material-location > div:first-child {
     border-right: 0;
     border-bottom: 1px solid var(--ink);
   }
-
 }
 /* =========================================
    LANDING PARTECIPA
@@ -2078,107 +1825,78 @@ h1,h2,h3,p{margin-top:0}
 .participate-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   border-bottom: 1px solid var(--line);
 }
 
-
 .participate-card {
   min-height: 460px;
-
   padding: 55px clamp(28px, 4vw, 60px);
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
   border-right: 1px solid var(--line);
 }
-
 
 .participate-card:last-child {
   border-right: 0;
 }
 
-
 .participate-card h2 {
   max-width: 10ch;
-
   font-size: clamp(38px, 4vw, 56px);
   line-height: .95;
   letter-spacing: -.05em;
-
   margin-bottom: 25px;
 }
 
-
 .participate-card > p:not(.eyebrow) {
   max-width: 42ch;
-
   font-size: 17px;
   line-height: 1.55;
-
   color: var(--muted);
 }
-
 
 .participate-card .button {
   margin-top: auto;
 }
 
-
 /* TABLET */
 
 @media(max-width:1000px) {
-
   .participate-grid {
     grid-template-columns: 1fr 1fr;
   }
-
   .participate-card {
     border-bottom: 1px solid var(--line);
   }
-
   .participate-card:nth-child(2) {
     border-right: 0;
   }
-
   .participate-card:last-child {
     grid-column: 1 / -1;
     min-height: 350px;
-
     border-right: 0;
   }
-
 }
-
 
 /* MOBILE */
 
 @media(max-width:600px) {
-
   .participate-grid {
     grid-template-columns: 1fr;
   }
-
   .participate-card,
   .participate-card:last-child {
     grid-column: auto;
-
     min-height: 380px;
-
     padding: 42px 5vw;
-
     border-right: 0;
     border-bottom: 1px solid var(--line);
   }
-
   .participate-card h2 {
     font-size: 38px;
   }
-
   .participate-card > p:not(.eyebrow) {
     font-size: 16px;
   }
-
 }
