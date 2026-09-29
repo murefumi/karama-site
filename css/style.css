@@ -2012,3 +2012,62 @@ h1,h2,h3,p{margin-top:0}
   }
 
 }
+/* =========================================
+   HOME - ATTIVITÀ E PARTECIPA AGGIORNATI
+   ========================================= */
+
+
+/* COSA FACCIAMO: DUE GRANDI AREE */
+
+.home-activities-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.home-activities-grid article {
+  min-height: 380px;
+}
+
+
+.home-activities-grid article .button {
+  margin-top: auto;
+}
+
+
+/* PARTECIPA: TRE POSSIBILITÀ */
+
+.support-home-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.support-home-grid-3 article {
+  min-height: 430px;
+}
+
+
+/* TABLET */
+
+@media(max-width:900px) {
+
+  .home-activities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .support-home-grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* MOBILE */
+
+@media(max-width:520px) {
+
+  .home-activities-grid article,
+  .support-home-grid-3 article {
+    min-height: 0;
+  }
+
+}
