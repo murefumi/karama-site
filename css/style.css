@@ -1327,3 +1327,289 @@ h1,h2,h3,p{margin-top:0}
 .support-info-block .button {
   margin-top: 10px;
 }
+/* =========================================
+   PAGINA DONA
+   ========================================= */
+
+.dona-content {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 5vw 100px;
+}
+
+
+/* SEZIONI */
+
+.dona-content > .content-block.dona-section {
+  width: 100%;
+  min-height: 0;
+
+  padding: 55px 0;
+
+  border-right: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.dona-section > h2 {
+  max-width: 15ch;
+
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: .95;
+  letter-spacing: -.05em;
+
+  margin-bottom: 28px;
+}
+
+.dona-section > p {
+  max-width: 70ch;
+
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+
+/* TESTO INTRODUTTIVO */
+
+.dona-section .dona-intro {
+  max-width: 65ch;
+
+  font-size: 20px;
+  line-height: 1.45;
+
+  margin-bottom: 28px;
+}
+
+
+/* PUNTO RACCOLTA */
+
+.dona-location {
+  max-width: 850px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 40px 0;
+  border: 1px solid var(--ink);
+}
+
+.dona-location > div {
+  padding: 28px;
+}
+
+.dona-location > div:first-child {
+  border-right: 1px solid var(--ink);
+}
+
+.dona-location h3 {
+  margin: 0;
+
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+
+
+/* COSA SERVE */
+
+.dona-subsection {
+  max-width: 850px;
+
+  padding: 35px 0;
+  margin-top: 20px;
+
+  border-top: 1px solid var(--line);
+}
+
+.dona-material-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 0 45px;
+
+  padding-left: 20px;
+  margin: 0;
+}
+
+.dona-material-list li {
+  padding: 10px 0;
+  line-height: 1.45;
+
+  border-bottom: 1px solid var(--line);
+}
+
+
+/* AVVISO MATERIALI */
+
+.dona-important {
+  max-width: 850px;
+
+  padding: 24px 28px;
+  margin: 10px 0 30px;
+
+  background: var(--ink);
+  color: #fff;
+}
+
+.dona-important p {
+  margin: 0;
+
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+
+/* BOTTONI */
+
+.dona-actions {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 30px;
+}
+
+
+/* EVIDENZA DONAZIONI */
+
+.dona-highlight {
+  max-width: 850px;
+
+  padding: 28px;
+  margin: 30px 0;
+
+  border: 2px solid var(--ink);
+}
+
+.dona-highlight p {
+  margin: 0;
+
+  font-size: clamp(20px, 2.5vw, 27px);
+  line-height: 1.3;
+}
+
+
+/* MODALITÀ DONAZIONE */
+
+.donation-methods {
+  max-width: 850px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-top: 40px;
+
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--ink);
+}
+
+.donation-method {
+  min-height: 240px;
+
+  padding: 28px;
+
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.donation-method h3 {
+  font-size: clamp(25px, 3vw, 36px);
+  line-height: 1;
+
+  letter-spacing: -.04em;
+}
+
+.donation-label {
+  margin-bottom: 5px;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.iban {
+  overflow-wrap: anywhere;
+
+  font-size: clamp(18px, 2.2vw, 25px);
+  font-weight: 800;
+  letter-spacing: .02em;
+}
+
+
+/* LABORATORIO */
+
+.sewing-visit {
+  max-width: 600px;
+
+  padding: 28px;
+  margin: 35px 0;
+
+  background: var(--paper-soft);
+}
+
+.sewing-visit h3 {
+  margin-bottom: 8px;
+
+  font-size: clamp(27px, 3vw, 40px);
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+
+.sewing-visit p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media(max-width:600px) {
+
+  .dona-content {
+    padding: 45px 5vw 70px;
+  }
+
+  .dona-content > .content-block.dona-section {
+    padding: 42px 0;
+  }
+
+  .dona-section > h2 {
+    font-size: 38px;
+  }
+
+  .dona-section > p {
+    font-size: 16px;
+  }
+
+  .dona-section .dona-intro {
+    font-size: 18px;
+  }
+
+  .dona-location {
+    grid-template-columns: 1fr;
+  }
+
+  .dona-location > div:first-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .dona-material-list {
+    grid-template-columns: 1fr;
+  }
+
+  .donation-methods {
+    grid-template-columns: 1fr;
+  }
+
+  .dona-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dona-actions .button {
+    width: 100%;
+  }
+
+}
