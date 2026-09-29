@@ -1613,3 +1613,572 @@ h1,h2,h3,p{margin-top:0}
   }
 
 }
+/* =========================================
+   PAGINA DIVENTA VOLONTARIO
+   ========================================= */
+
+.volunteer-content {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 5vw 100px;
+}
+
+
+/* SEZIONI */
+
+.volunteer-content > .content-block.volunteer-section {
+  width: 100%;
+  min-height: 0;
+
+  padding: 55px 0;
+
+  border-right: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+
+.volunteer-section > h2 {
+  max-width: 15ch;
+
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: .95;
+  letter-spacing: -.05em;
+
+  margin-bottom: 28px;
+}
+
+
+.volunteer-section > p {
+  max-width: 70ch;
+
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+
+.volunteer-section .volunteer-intro {
+  max-width: 65ch;
+
+  font-size: 20px;
+  line-height: 1.45;
+
+  margin-bottom: 30px;
+}
+
+
+/* FRASE IN EVIDENZA */
+
+.volunteer-highlight {
+  max-width: 850px;
+
+  padding: 28px;
+  margin: 30px 0;
+
+  border: 2px solid var(--ink);
+}
+
+
+.volunteer-highlight p {
+  margin: 0;
+
+  font-size: clamp(20px, 2.5vw, 27px);
+  line-height: 1.3;
+}
+
+
+/* ATTIVITÀ */
+
+.volunteer-activities {
+  max-width: 900px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  margin-top: 45px;
+
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+
+.volunteer-activity {
+  min-height: 230px;
+
+  padding: 28px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+
+.volunteer-activity > span {
+  margin-bottom: auto;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+
+  color: var(--muted);
+}
+
+
+.volunteer-activity h3 {
+  margin: 35px 0 12px;
+
+  font-size: 27px;
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+
+
+.volunteer-activity p {
+  margin-bottom: 0;
+
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+
+/* ultima attività a tutta larghezza */
+
+.volunteer-activity:last-child {
+  grid-column: 1 / -1;
+  min-height: 200px;
+}
+
+
+/* WHATSAPP */
+
+.whatsapp-box {
+  max-width: 850px;
+
+  padding: 35px;
+  margin: 35px 0;
+
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+}
+
+
+.whatsapp-box h3 {
+  max-width: 16ch;
+
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1;
+  letter-spacing: -.04em;
+
+  margin-bottom: 20px;
+}
+
+
+.whatsapp-box > p:not(.eyebrow) {
+  max-width: 60ch;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+
+/* ALTRI CONTATTI */
+
+.volunteer-other-contacts {
+  max-width: 850px;
+
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+
+
+.volunteer-other-contacts > p {
+  max-width: 65ch;
+}
+
+
+.volunteer-actions {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 25px;
+}
+
+
+/* SEZIONE INCLUSIVITÀ */
+
+.inclusive-statement {
+  max-width: 850px;
+
+  padding: 35px;
+  margin: 35px 0;
+
+  background: var(--ink);
+  color: #fff;
+}
+
+
+.inclusive-statement .eyebrow {
+  color: #fff;
+}
+
+
+.inclusive-statement h3 {
+  max-width: 18ch;
+
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1;
+  letter-spacing: -.045em;
+
+  margin-bottom: 25px;
+}
+
+
+.inclusive-statement > p:last-child {
+  max-width: 65ch;
+
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+
+/* RISPETTO E DISCREZIONE */
+
+.volunteer-respect {
+  max-width: 850px;
+
+  padding: 30px;
+  margin-top: 25px;
+
+  border: 2px solid var(--ink);
+}
+
+
+.volunteer-respect h3 {
+  font-size: clamp(27px, 3vw, 38px);
+  line-height: 1;
+  letter-spacing: -.04em;
+
+  margin-bottom: 18px;
+}
+
+
+.volunteer-respect p:last-child {
+  max-width: 65ch;
+
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media(max-width:600px) {
+
+  .volunteer-content {
+    padding: 45px 5vw 70px;
+  }
+
+
+  .volunteer-content > .content-block.volunteer-section {
+    padding: 42px 0;
+  }
+
+
+  .volunteer-section > h2 {
+    font-size: 38px;
+  }
+
+
+  .volunteer-section > p {
+    font-size: 16px;
+  }
+
+
+  .volunteer-section .volunteer-intro {
+    font-size: 18px;
+  }
+
+
+  .volunteer-activities {
+    grid-template-columns: 1fr;
+  }
+
+
+  .volunteer-activity:last-child {
+    grid-column: auto;
+  }
+
+
+  .volunteer-activity {
+    min-height: 200px;
+  }
+
+
+  .volunteer-highlight,
+  .whatsapp-box,
+  .inclusive-statement,
+  .volunteer-respect {
+    padding: 22px;
+  }
+
+
+  .volunteer-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+
+  .volunteer-actions .button {
+    width: 100%;
+  }
+
+}
+/* =========================================
+   PAGINA PORTA MATERIALE
+   ========================================= */
+
+.material-content {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 5vw 100px;
+}
+
+
+/* SEZIONI */
+
+.material-content > .content-block.material-section {
+  width: 100%;
+  min-height: 0;
+
+  padding: 55px 0;
+
+  border-right: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+
+.material-section > h2 {
+  max-width: 15ch;
+
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: .95;
+  letter-spacing: -.05em;
+
+  margin-bottom: 30px;
+}
+
+
+/* LISTA MATERIALI */
+
+.material-list {
+  max-width: 800px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 0;
+  margin: 35px 0 0;
+
+  list-style: none;
+
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+
+.material-list li {
+  padding: 20px 22px;
+
+  font-size: 17px;
+  font-weight: 700;
+
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+
+/* PUNTO DI RACCOLTA */
+
+.material-location {
+  max-width: 800px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-top: 35px;
+
+  border: 1px solid var(--ink);
+}
+
+
+.material-location > div {
+  padding: 28px;
+}
+
+
+.material-location > div:first-child {
+  border-right: 1px solid var(--ink);
+}
+
+
+.material-location h3 {
+  margin-bottom: 12px;
+
+  font-size: clamp(27px, 3vw, 38px);
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+
+
+.material-location p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* MOBILE */
+
+@media(max-width:600px) {
+
+  .material-content {
+    padding: 45px 5vw 70px;
+  }
+
+  .material-content > .content-block.material-section {
+    padding: 42px 0;
+  }
+
+  .material-section > h2 {
+    font-size: 38px;
+  }
+
+  .material-list {
+    grid-template-columns: 1fr;
+  }
+
+  .material-location {
+    grid-template-columns: 1fr;
+  }
+
+  .material-location > div:first-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--ink);
+  }
+
+}
+/* =========================================
+   LANDING PARTECIPA
+   ========================================= */
+
+.participate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border-bottom: 1px solid var(--line);
+}
+
+
+.participate-card {
+  min-height: 460px;
+
+  padding: 55px clamp(28px, 4vw, 60px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border-right: 1px solid var(--line);
+}
+
+
+.participate-card:last-child {
+  border-right: 0;
+}
+
+
+.participate-card h2 {
+  max-width: 10ch;
+
+  font-size: clamp(38px, 4vw, 56px);
+  line-height: .95;
+  letter-spacing: -.05em;
+
+  margin-bottom: 25px;
+}
+
+
+.participate-card > p:not(.eyebrow) {
+  max-width: 42ch;
+
+  font-size: 17px;
+  line-height: 1.55;
+
+  color: var(--muted);
+}
+
+
+.participate-card .button {
+  margin-top: auto;
+}
+
+
+/* TABLET */
+
+@media(max-width:1000px) {
+
+  .participate-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .participate-card {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .participate-card:nth-child(2) {
+    border-right: 0;
+  }
+
+  .participate-card:last-child {
+    grid-column: 1 / -1;
+    min-height: 350px;
+
+    border-right: 0;
+  }
+
+}
+
+
+/* MOBILE */
+
+@media(max-width:600px) {
+
+  .participate-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .participate-card,
+  .participate-card:last-child {
+    grid-column: auto;
+
+    min-height: 380px;
+
+    padding: 42px 5vw;
+
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .participate-card h2 {
+    font-size: 38px;
+  }
+
+  .participate-card > p:not(.eyebrow) {
+    font-size: 16px;
+  }
+
+}
