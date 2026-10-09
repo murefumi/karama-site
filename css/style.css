@@ -2402,3 +2402,17 @@ h1,h2,h3,p{margin-top:0}
   }
 
 }
+/* =========================================
+   DROPDOWN DESKTOP ALLINEATO AL PULSANTE
+   ========================================= */
+
+@media(min-width:841px){
+
+  .nav-item.has-dropdown > .dropdown-menu{
+    left:0;
+    width:100%;
+    min-width:100%;
+    box-sizing:border-box;
+  }
+
+}
