@@ -2416,3 +2416,49 @@ h1,h2,h3,p{margin-top:0}
   }
 
 }
+/* =========================================
+   TESTO PAGINA ROTTA BALCANICA
+   ========================================= */
+
+.route-text {
+  max-width: 760px;
+  margin: 0 auto;
+
+  text-align: left;
+}
+
+.route-text p {
+  margin: 0 0 24px;
+
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.route-text p:last-child {
+  margin-bottom: 0;
+}
+
+.route-text strong {
+  font-weight: 800;
+}
+
+.route-text em {
+  font-style: italic;
+  font-weight: 700;
+}
+
+
+/* MOBILE */
+
+@media(max-width:840px) {
+
+  .route-text {
+    max-width: 100%;
+  }
+
+  .route-text p {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+}
