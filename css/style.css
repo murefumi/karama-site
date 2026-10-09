@@ -51,9 +51,9 @@ button{font:inherit;color:inherit}
   font-size:11px;font-weight:700;letter-spacing:.08em
 }
 .dropdown-menu a:hover{background:rgba(255,255,255,.08)}
-.has-dropdown:hover>.dropdown-menu,
-.has-dropdown:focus-within>.dropdown-menu,
-.has-dropdown.open>.dropdown-menu{display:block}
+.has-dropdown.open > .dropdown-menu{
+  display:block;
+}
 .menu-toggle{display:none;border:1px solid var(--ink);background:transparent;padding:8px 11px;font-size:11px;letter-spacing:.08em}
 
 .home-main{max-width:var(--max);margin:0 auto;border-left:1px solid var(--line);border-right:1px solid var(--line)}
@@ -2314,7 +2314,7 @@ h1,h2,h3,p{margin-top:0}
 
 }
 .aiuto-documenti {
-  max-width: 400px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 
@@ -2332,4 +2332,73 @@ h1,h2,h3,p{margin-top:0}
 
 .aiuto-documenti .button {
   margin-top: 10px;
+}
+.insieme-courses {
+  margin-top: 28px;
+}
+
+.insieme-courses .eyebrow {
+  margin-bottom: 12px;
+}
+
+.insieme-online-title {
+  margin-top: 30px;
+}
+@media(min-width:841px){
+
+  .nav-item.has-dropdown{
+    display:grid;
+    grid-template-columns:auto 42px;
+    align-items:stretch;
+  }
+
+  .nav-item.has-dropdown > .nav-main{
+    display:flex;
+    align-items:center;
+    border-right:0;
+  }
+
+  .nav-item.has-dropdown > .dropdown-toggle{
+    width:42px;
+    height:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:0;
+
+    border:0;
+    border-right:1px solid var(--line);
+
+    background:transparent;
+
+    cursor:pointer;
+    font-size:18px;
+  }
+
+  .nav-item.has-dropdown:hover > .nav-main,
+  .nav-item.has-dropdown:focus-within > .nav-main{
+    border-right:0;
+  }
+
+  .nav-item.has-dropdown > .dropdown-toggle:hover,
+  .nav-item.has-dropdown > .dropdown-toggle:focus-visible{
+    background:var(--paper-soft);
+  }
+
+}.nav-item.has-dropdown:hover > .nav-main,
+.nav-item.has-dropdown:focus-within > .nav-main{
+  border-right:0;
+}
+@media(min-width:841px){
+
+  .nav-item.has-dropdown:has(> .dropdown-toggle:hover) > .dropdown-menu {
+    display:block;
+  }
+
+  .nav-item.has-dropdown:has(> .dropdown-toggle:focus-visible) > .dropdown-menu {
+    display:block;
+  }
+
 }
